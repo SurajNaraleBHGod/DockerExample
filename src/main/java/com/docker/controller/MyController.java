@@ -15,4 +15,10 @@ public class MyController {
 
     }
 
+    @ResponseBody
+    @GetMapping("/go")
+    public String go() {
+        return "Go To Docker Example";
+    }
+
 }
