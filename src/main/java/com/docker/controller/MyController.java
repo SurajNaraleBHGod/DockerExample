@@ -21,4 +21,10 @@ public class MyController {
         return "Go To Docker Example";
     }
 
+    @ResponseBody
+    @GetMapping("/sayHello")
+    public String hello(){
+        return "Hello !";
+    }
+
 }
