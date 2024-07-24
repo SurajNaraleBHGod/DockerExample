@@ -23,7 +23,7 @@ public class MyController {
 
     @ResponseBody
     @GetMapping("/sayHello")
-    public String hello(){
+    public String helloAgain(){
         return "Hello !";
     }
 
